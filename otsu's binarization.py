@@ -2,8 +2,8 @@ import numpy as np
 import os
 import cv2
 
-input_path = (r"C:/Users/Stefan Pitur/Desktop/python inceputuri/otsu's method/input_data/")
-output_path = (r"C:/Users/Stefan Pitur/Desktop/python inceputuri/otsu's method/output_data/")
+input_path = (r"_your_input_path_")
+output_path = (r"_your_output_path_")
 
 def Grayscale(image):
     image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
